@@ -1,11 +1,25 @@
 # CSTLab SPBPU — Remote Lab Hub (Releases)
 
-Официальные сборки клиента удалённой лаборатории **CSTLab SPBPU (Remote Lab Hub)**.
+Official desktop client builds for the remote laboratory **CSTLab SPBPU (Remote Lab Hub)**.
 
-## Установка
+## Download & Install (English)
 
-Скачайте последний полный установщик из раздела **[Releases](https://github.com/VladislavLowPriority/RemoteLab/releases/latest)**:
+Download the latest release from **[Releases](https://github.com/VladislavLowPriority/RemoteLab/releases/latest)**:
 
-- `RemoteLabHub-Setup-<version>.exe` — полный установщик для новой установки (~250 МБ)
-- `RemoteLabHub-Update-<version>.exe` — пакет обновления поверх установленной версии `0.9.0+` (~51 МБ, скачивается программой автоматически)
-- `update.json` — манифест автообновления (`https://github.com/VladislavLowPriority/RemoteLab/releases/latest/download/update.json`)
+- **`RemoteLabHub-Setup-<version>.exe`** (~250 MB) — full installer for a clean installation.
+- **`RemoteLabHub-Update-<version>.exe`** (~51 MB) — lightweight update package for existing installations (`0.9.0+`); future updates are downloaded automatically by the app from here (`update.json`).
+- **`update.json`** — auto-update manifest (`https://github.com/VladislavLowPriority/RemoteLab/releases/latest/download/update.json`).
+
+> If you currently have version `0.9.17` or older, download and install `0.9.25+` once manually from GitHub Releases; after that, built-in auto-update will work automatically.
+
+---
+
+## Установка и обновление (Русский)
+
+Скачайте последний выпуск со страницы **[Releases](https://github.com/VladislavLowPriority/RemoteLab/releases/latest)**:
+
+- **`RemoteLabHub-Setup-<version>.exe`** (~250 МБ) — полный установщик для новой установки.
+- **`RemoteLabHub-Update-<version>.exe`** (~51 МБ) — лёгкий пакет обновления поверх установленной версии `0.9.0+`; дальнейшие обновления программа скачивает сама отсюда же.
+- **`update.json`** — манифест автообновления (`https://github.com/VladislavLowPriority/RemoteLab/releases/latest/download/update.json`).
+
+> Если у вас сейчас стоит `0.9.17` или ниже, обновитесь один раз вручную с GitHub Releases — дальше встроенное автообновление заработает само.
